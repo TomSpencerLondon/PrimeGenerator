@@ -23,4 +23,11 @@ public class PrimeFactorTest {
         factors.add(3);
         assertEquals(factors, PrimeFactor.of(3));
     }
+    @Test public void
+    of_4_is_2_2() {
+        ArrayList<Integer> factors = new ArrayList<Integer>();
+        factors.add(2);
+        factors.add(2);
+        assertEquals(factors, PrimeFactor.of(4));
+    }
 }

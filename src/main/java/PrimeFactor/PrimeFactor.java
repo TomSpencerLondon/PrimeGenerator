@@ -7,7 +7,12 @@ public class PrimeFactor {
         ArrayList<Integer> factors;
         factors = new ArrayList<>();
         if(n > 1){
-            factors.add(n);
+            if(n % 2 == 0){
+                factors.add(2);
+                n /= 2;
+            }
+            if (n > 1)
+                factors.add(n);
         }
         return factors;
     }
