@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="55e85deb-2907-44cc-9d7a-a0b2430613e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PrimeFactor/PrimeFactorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimeFactor/PrimeFactorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrimeFactor/PrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrimeFactor/PrimeFactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrimeFactor/PrimeFactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PrimeFactor/PrimeFactor.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeFactorTest.of_acceptance_test_is_correct">
+  <component name="RunManager" selected="JUnit.PrimeFactorTest">
     <configuration name="PrimeFactorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrimeFactorGenerator" />
       <extension name="coverage">
@@ -153,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimeFactorTest" />
         <item itemvalue="JUnit.PrimeFactorTest.of_acceptance_test_is_correct" />
         <item itemvalue="JUnit.PrimeFactorTest.of_9_is_3_3" />
-        <item itemvalue="JUnit.PrimeFactorTest" />
         <item itemvalue="JUnit.PrimeFactorTest.of_8_is_2_2_2" />
         <item itemvalue="JUnit.PrimeFactorTest.of_4_is_2_2" />
       </list>
@@ -171,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577829506065</updated>
-      <workItem from="1577829513829" duration="5254000" />
+      <workItem from="1577829513829" duration="5477000" />
     </task>
     <servers />
   </component>
