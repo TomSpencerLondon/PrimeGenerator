@@ -7,7 +7,7 @@ public class PrimeFactor {
         ArrayList<Integer> factors;
         factors = new ArrayList<>();
         if(n > 1){
-            if(n % 2 == 0){
+            while(n % 2 == 0){
                 factors.add(2);
                 n /= 2;
             }
