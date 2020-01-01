@@ -52,4 +52,18 @@ public class PrimeFactorTest {
         factors.add(3);
         assertEquals(factors, PrimeFactor.of(9));
     }
+
+    @Test public void
+    of_acceptance_test_is_correct() {
+        ArrayList<Integer> factors = new ArrayList<Integer>();
+        factors.add(2);
+        factors.add(2);
+        factors.add(2);
+        factors.add(3);
+        factors.add(3);
+        factors.add(5);
+        factors.add(7);
+        factors.add(11);
+        assertEquals(factors, PrimeFactor.of((2*2*2*3*3*5*7*11)));
+    }
 }
