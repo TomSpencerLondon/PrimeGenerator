@@ -45,4 +45,11 @@ public class PrimeFactorTest {
         factors.add(2);
         assertEquals(factors, PrimeFactor.of(8));
     }
+    @Test public void
+    of_9_is_3_3() {
+        ArrayList<Integer> factors = new ArrayList<Integer>();
+        factors.add(3);
+        factors.add(3);
+        assertEquals(factors, PrimeFactor.of(9));
+    }
 }

@@ -6,13 +6,13 @@ public class PrimeFactor {
     public static ArrayList<Integer> of(int n){
         ArrayList<Integer> factors;
         factors = new ArrayList<>();
-        if(n > 1){
-            while(n % 2 == 0){
-                factors.add(2);
-                n /= 2;
+        int divisor = 2;
+        while(n > 1){
+            while(n % divisor == 0){
+                factors.add(divisor);
+                n /= divisor;
             }
-            if (n > 1)
-                factors.add(n);
+            divisor += 1;
         }
         return factors;
     }
